@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>userList-oop</title>
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <div class="center-container">
+        <!-- Creating user form -->
+           <form name="form1"  id="form" action="#" method="#">
+            <p id="errorMessage"></p>
+            <input value=""id="name"placeholder="Emri"class="border-style">
+            <select name="type" id="category" class="border-style">
+                <option value="student">Student</option>
+                <option value="mesues">Mësues</option>
+            </select>
+            <button type="submit"class="add-button border-style">+ SHTO</button>
+            </form>
+         <hr>
+        <!-- Search box -->
+        <input type="text" placeholder="KËRKO" id="searchBox" class="border-style" onkeyup="filterUsers()">
+       <!-- List of users -->
+        <ul id="userList">
+            <!-- <li class="list-items">
+                <div class="left-section">
+                    <img src="images/User-avatar.png" class="user-avatar">
+                    <div class="user-data">
+                     <span class="itemName">Atika</span>
+                     <span>Mesuese</span>
+                    </div>
+                </div>
+          <button onClick="deleteList(this)"id="deleteButton">&#10005;</button>
+            </li> -->
+        </ul>
+     </div>
+</body>
+     <!-- Script -->
+    <script src="script.js"></script>
+</html>

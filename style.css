@@ -1,0 +1,65 @@
+ul{
+    padding: unset;
+}
+#errorMessage{
+    color: red;
+}
+body{
+    margin: 0;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 51%);
+}
+.center-container{
+    padding: 20px;
+    height: 100%;
+    background: white;
+    width: 50%;
+    margin: auto;
+}
+.list-items{
+    box-shadow: 0px 2px 0px 0px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.user-avatar{
+    height: 30px;
+    width: auto;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+}
+.user-data{
+    padding-left: 5px;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+}
+.left-section{
+    display: flex;
+}
+#deleteButton{
+    font-size: 18px;
+    border-radius: 50%;
+    font-weight: 900;
+    border: 0px;
+    background: red;
+    color: white;
+    width: 30px;
+    height: auto;
+}
+.border-style{
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid lightgray;
+}
+.add-button{
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid #0d6efd;
+    background: #0d6efd;
+    color: white;
+}
